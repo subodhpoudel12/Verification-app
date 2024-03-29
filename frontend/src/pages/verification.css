@@ -1,0 +1,53 @@
+.verification-container {
+    max-width: 300px; 
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .verification-form {
+    margin-top: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input[type="text"] {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #131212;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px; 
+    width: 150px;
+    font-size: 19px;
+    background-color: #100249;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #100249;
+  }
+  
+  .success-message {
+    color: #28a745;
+  }
+  
+  .error-message {
+    color: #dc3545;
+  }
+  
